@@ -72,7 +72,13 @@
                   session.endDialog( `Hello ${ results.response } !! ` ); 
                 logger.info(" Exiting Response zone ... ");
 
+            },
+
+            function (session: any, results: any ) {
+                logger.info(" Start connecting to L.U.I.S " );
             }
+
+
         ] ); 
 
 
